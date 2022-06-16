@@ -6,10 +6,12 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
+@import "components/badge.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   color: #2e363e;
@@ -22,5 +24,5 @@ body {
 }
 
 .main-screen {
-  padding: 20px var(--horizontal-space);
+  padding: 18px var(--horizontal-space);
 }
