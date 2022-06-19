@@ -38,7 +38,7 @@
 }
 
 .user-component__title--not-bold {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .user-component__column:last-child {
@@ -55,4 +55,9 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__subtitle i {
+  color: red;
+  margin-left: 3px;
 }
