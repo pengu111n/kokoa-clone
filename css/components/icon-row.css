@@ -4,10 +4,18 @@
 }
 
 .icon-row__icon {
+  width: 79px;
+  height: 68px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: 0.2s linear;
+}
+
+.icon-row__icon:hover {
+  box-shadow: 0px 1px 20px #ed66ff;
+  transform: scale(1.1);
 }
 
 .icon-row__icon i {
@@ -22,14 +30,4 @@
 
 .icon-row__icon #long {
   margin-top: 10px;
-}
-
-.icon-row2 .icon-row__icon:nth-child(1) {
-  margin-left: 8px;
-}
-.icon-row2 .icon-row__icon:nth-child(2) {
-  margin-left: 15px;
-}
-.icon-row2 .icon-row__icon:nth-child(3) {
-  margin-left: 20px;
 }
