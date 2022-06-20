@@ -9,3 +9,8 @@
   font-weight: 600;
   color: white;
 }
+
+#last_badge {
+  align-items: flex-end;
+  margin-right: 6px;
+}

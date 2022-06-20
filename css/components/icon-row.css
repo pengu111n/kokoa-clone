@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .icon-row__icon i {
@@ -21,4 +22,14 @@
 
 .icon-row__icon #long {
   margin-top: 10px;
+}
+
+.icon-row2 .icon-row__icon:nth-child(1) {
+  margin-left: 8px;
+}
+.icon-row2 .icon-row__icon:nth-child(2) {
+  margin-left: 15px;
+}
+.icon-row2 .icon-row__icon:nth-child(3) {
+  margin-left: 20px;
 }

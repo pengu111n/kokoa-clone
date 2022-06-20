@@ -11,6 +11,7 @@
 @import "components/user-components.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -25,9 +26,8 @@ body {
   font-family: "Open Sans", sans-serif;
   background-image: url("https://cdn.clien.net/web/api/file/F01/7958213/c267eb3ed9b59.jpg?w=780&h=30000");
   background-size: cover;
-}
-
-.pt-5 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .main-screen {
